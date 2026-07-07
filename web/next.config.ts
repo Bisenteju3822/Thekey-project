@@ -1,15 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Proxy API calls to the Elysia server
-  async rewrites() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: "http://localhost:4000/api/:path*",
-      },
-    ];
-  },
+  // When running locally with Elysia server, uncomment the rewrite below:
+  // async rewrites() {
+  //   return [{ source: "/api/:path*", destination: "http://localhost:4000/api/:path*" }];
+  // },
 };
 
 export default nextConfig;
