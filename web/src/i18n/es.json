@@ -1,0 +1,39 @@
+{
+  "common": {
+    "appName": "Foro Comunitario",
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Reintentar"
+  },
+  "nav": {
+    "feed": "Publicaciones",
+    "saved": "Guardados",
+    "courses": "Mis Cursos",
+    "switchLang": "English"
+  },
+  "feed": {
+    "title": "Discusión del Curso",
+    "empty": "Aún no hay publicaciones en este curso.",
+    "by": "por",
+    "postedOn": "Publicado el"
+  },
+  "saved": {
+    "title": "Publicaciones Guardadas",
+    "empty": "Aún no has guardado ninguna publicación.",
+    "emptyHint": "Explora las discusiones de tus cursos y guarda las publicaciones que quieras revisar después."
+  },
+  "post": {
+    "save": "Guardar",
+    "saved": "Guardado",
+    "unsave": "Quitar",
+    "savesCount": "{count, plural, =0 {0 guardados} =1 {1 guardado} other {# guardados}}"
+  },
+  "courses": {
+    "title": "Mis Cursos",
+    "viewFeed": "Ver Discusión"
+  },
+  "auth": {
+    "loggedInAs": "Sesión como",
+    "switchUser": "Cambiar Usuario"
+  }
+}

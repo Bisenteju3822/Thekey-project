@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "db:migrate": "bun run src/db/migrate.ts",
+    "db:seed": "bun run src/db/seed.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.39.3",
+    "elysia": "^1.2.25",
+    "@elysiajs/cors": "^1.2.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.1",
+    "typescript": "^5.7.3"
+  }
+}
